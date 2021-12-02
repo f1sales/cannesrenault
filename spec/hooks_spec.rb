@@ -42,7 +42,7 @@ RSpec.describe F1SalesCustom::Hooks::Lead do
       let(:store_name) { 'Montenegro' }
       let(:lead) do
         lead = OpenStruct.new
-        lead.description = "Cliente HILDA portador do CPF 00908919883 converteu na isca SOLICITAR COTAÇÃO no produto 'CITY 2019 DX' com ENTRADA de R$ 40000 em 12X. Forma de Negociação: 'Estou apenas pesquisando'. Cliente deseja receber contato por: Email e Telefone/WhatsApp. Data da conversão: 19:40. URL da conversão: https://hmotors.com.br/novos/city-2019 Origem: Orgânico    *. Unidade: Montenegro"
+        lead.description = "Cliente DAVI SOUZA OU CARLA converteu na isca ESTOU INTERESSADO no produto ‘DUSTER OROCH 2022 DYNAMIQUE 2.0 AUTOMÁTICO ’. O cliente permite utilizar os dados enviados. Cliente deseja receber contato por: WhatsApp. Data da conversão: 01/12/2021 14:03. URL da conversão: https://www.cannesrenault.com.br/novos/duster-oroch-2022/dynamique-2-0-automatico Origem: Orgânico. Unidade: Montenegro "
         lead.source = source
         lead
       end
